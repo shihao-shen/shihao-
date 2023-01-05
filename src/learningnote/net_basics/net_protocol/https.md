@@ -9,9 +9,7 @@ category:
     - 应用层
     - 协议
 tag:
-    - HTTP   
-    - SSL
-    - TLS
+    - HTTPS
 sticky: false
 # 是否收藏在博客主题的文章列表中，当填入数字时，数字越大，排名越靠前。
 star: false
@@ -21,7 +19,7 @@ article: true
 timeline: true
 # sidebar: heading
 order: 7
-date: 2022-01-04
+date: 2023-01-05
 # 浏览量
 pageview: true
 ---
@@ -30,7 +28,7 @@ pageview: true
 
 HTTPS是在HTTP的基础上进行加密的协议。它使用了SSL/TLS来对网络传输的数据进行加密，以确保数据在网络上的安全传输。在浏览器中，使用HTTPS的网站通常会使用一个安全的标识（例如锁图标）来表示它使用了HTTPS协议。
 
-![image-20230105103320453](/blog_image/image-20230105103320453.png)
+![image-20230105103320453](/blog_img/1.png)
 
 ## 📑 协议结构
 
@@ -41,8 +39,6 @@ HTTP协议负责传输数据和命令，也就是我们熟知的浏览器与服�
 SSL/TLS协议负责加密数据传输，保证数据在传输过程中不会被窃取或篡改。
 
 密钥交换协议负责在客户端与服务器之间安全地交换密钥，以便进行加密通信。
-
-​	
 
 ## 📑 工作原理
 
