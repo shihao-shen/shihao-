@@ -16,11 +16,10 @@ export default defineUserConfig({
   // 多语言设置
   locales: {
     "/": {
-      lang: "zh-CN",
-      title: "shihao的学习笔记",
-      description: "shihao的学习笔记",
-      // 设置favicon
-      head: [["link", { rel: "icon", href: "/favicon.svg" }]],
+      lang: "zh-CN", 
+      title: "shihao-blog",
+      description: "shihao-blog",
+    head: [["link", { rel: "icon", href: "/favicon.svg" }]],
     },
   },
   // 主题设置

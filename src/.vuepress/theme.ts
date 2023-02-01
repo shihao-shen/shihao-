@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "shihao-shen",
+  repo: "shihao-shen/shihao_learning_note/",
 
   docsDir: "docs",
 
@@ -23,7 +23,7 @@ export default hopeTheme({
     // 头像
     avatar: "/blog.png",
     // 名称
-    name: "Mr.Shihao",
+    name: "shihao-shen",
     // 是否是圆形头像
     roundAvatar: false,
     // 个人描述
@@ -36,7 +36,7 @@ export default hopeTheme({
     sidebarDisplay: "mobile",
     // 每页展示的文章数量
     articlePerPage: 7,
-    timeline: "shihao的时光轴🍃",
+    timeline: "时光轴🍃",
     intro: "sdsdsd"
   },
 
@@ -85,11 +85,13 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-
+      repo: "shihao-shen/shihao_learning_note",
+      repoId: "R_kgDOIs3yqA",
+      category: "General",
+      categoryId: "DIC_kwDOIs3yqM4CTV1I",
+      mapping: "pathname",
+      strict: false,
+      reactionsEnabled: true,
       /**
        * Using Twikoo
        */
