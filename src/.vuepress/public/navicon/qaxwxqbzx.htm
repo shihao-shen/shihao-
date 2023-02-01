@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport id=testViewport content="width=device-width,initial-scale=0.5"><title>奇安信威胁情报中心</title><meta name=baidu-site-verification content=BST8ngMrL2><link rel="shortcut icon" href=/microapps/portal-ti/static/assets/favicon.ico><link href=/microapps/portal-ti/static/css/app.a273b451336adaf9f9811022fc1564af.css rel=stylesheet></head><style>#watermark-box {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        user-select: none;
+        pointer-events: none;
+        opacity: 0.04;
+        z-index: 999;
+        color: #555;
+        transform: skew(16deg);
+    }
+    .watermark {
+        text-align: center;
+        font-size: 20px;
+    }
+    .watermark div{
+      font-size: 20px;
+    }</style><body><div id=watermark-box></div><div id=app></div><div class=loading-mask id=j-loading-mask><div class=loading-spinner><svg viewBox="25 25 50 50" class=circular><circle cx=50 cy=50 r=20 fill=none class=path></circle></svg><p class=loading-text>加载中</p></div></div><script>function doWaterMark(width, height, content) {
+          let box = document.getElementById("watermark-box");
+          let boxWidth = box.clientWidth,
+              boxHeight = box.clientHeight;
+          for (let i = 0; i < Math.floor(boxHeight / height); i++) {
+              for (let j = 0; j < Math.floor(boxWidth / width); j++) {
+                  let next = document.createElement("div")
+                  next.setAttribute("class", "watermark")
+                  next.style.width = width + 'px'
+                  next.style.height = height + 'px'
+                  next.innerText = content
+                  box.appendChild(next)
+              }
+          }
+      }
+      window.onload = doWaterMark(500, 260, 'ti.qianxin.com')</script><script>var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d8264b8020f2466f0d32c74495e8f841";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script><script type=text/javascript src=/microapps/portal-ti/static/js/manifest.19656b32c52e7e2b3559.js></script><script type=text/javascript src=/microapps/portal-ti/static/js/vendor.685d02fff033489e4818.js></script><script type=text/javascript src=/microapps/portal-ti/static/js/app.ebd72427c67fcb25aace.js></script></body></html>
