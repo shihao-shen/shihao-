@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: 计算机网络基础
+title: 漏洞复现
 # 当前页面图标
 icon: "computer"
 # 分类
@@ -15,5 +15,5 @@ index: false
 dir:
     order: 1
 category:
-    - 计算机网络基础
+    - 漏洞复现
 ---
