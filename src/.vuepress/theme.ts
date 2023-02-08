@@ -12,7 +12,7 @@ export default hopeTheme({
   sidebarSorter: ["order"],
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/minions/image1.png",
 
   repo: "shihao-shen/shihao_learning_note/",
 
@@ -56,7 +56,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个刚入门的网络安全菜鸟",
+        description: "还没想好写什么",
         intro: "/intro.html",
       },
 

@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: 防火墙技术
+title: 防火墙
 # 当前页面图标
 icon: "decorate"
 # 分类
