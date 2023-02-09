@@ -17,8 +17,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN", 
-      title: "shihao-blog",
-      description: "shihao-blog",
+      title: "shihao.icu",
+      description: "shihao.icu",
     head: [["link", { rel: "icon", href: "/favicon.svg" }]],
     },
   },
