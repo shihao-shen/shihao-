@@ -23,7 +23,7 @@ date: 2022-02-08
 pageview: true
 ---
 
-## 什么是 XSS（跨站脚本攻击）？
+## 漏洞描述
 
 XSS（Cross-Site Scripting）指的是跨站脚本攻击，是一种网络安全漏洞，允许攻击者在用户的Web浏览器中执行任意代码。
 
