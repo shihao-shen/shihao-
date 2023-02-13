@@ -28,7 +28,7 @@ pageview: true
 
 RSA是一种公钥加密算法，同时也是一种数论算法。它的名字来自于三位创始人：Ron Rivest, Adi Shamir 和 Leonard Adleman。
 
-![](/blog_img/arl.jpg)
+![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/arl.jpg)
 
 在RSA加密算法中，有两个密钥：公钥和私钥。公钥可以公开，私钥必须保密。发送者使用公钥加密消息，接收者使用私钥解密。由于私钥是保密的，所以只有接收者能够解密消息，这就保证了消息的安全性。
 

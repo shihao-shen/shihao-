@@ -28,7 +28,7 @@ pageview: true
 
 HTTPS是在HTTP的基础上进行加密的协议。它使用了SSL/TLS来对网络传输的数据进行加密，以确保数据在网络上的安全传输。在浏览器中，使用HTTPS的网站通常会使用一个安全的标识（例如锁图标）来表示它使用了HTTPS协议。
 
-![image-20230105103320453](/blog_img/1.png)
+![image-20230105103320453](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/1.png)
 
 ## 📑 协议结构
 

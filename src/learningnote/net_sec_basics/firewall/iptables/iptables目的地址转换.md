@@ -27,7 +27,7 @@ pageview: true
 
 要求：当外网主机访问代理服务器的80端口时，可以访问到内网服务器的web服务
 
-![环境](/iptables/iptables目地址转换.png)
+![环境](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/iptables目地址转换.png)
 
 开放80端口
 ```sh
@@ -47,4 +47,4 @@ iptables -t nat -I PREROUTING -d 192.168.79.128 -p tcp --dport 80 -j DNAT --to 1
 ```uri
 http://192.168.79.128/phpinfo.php
 ```
-![效果](/iptables/Snipaste_2023-02-13_17-07-44.png)
+![效果](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/Snipaste_2023-02-13_17-07-44.png)

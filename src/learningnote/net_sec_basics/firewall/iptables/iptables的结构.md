@@ -27,7 +27,7 @@ pageview: true
 
 iptables 是由表（tables）组成，表（tables）再由链组成，所以在写iptables的命令时，需要先指定表，然后再指定链。
 
-![三表五链](/iptables/9ddgnzua1k.png)
+![三表五链](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/9ddgnzua1k.png)
 
 图片来源：[iptables系列教程](https://cloud.tencent.com/developer/article/1632776#:~:text=1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFiptables%EF%BC%9F.%20iptables%20%E6%98%AF%20Linux%20%E9%98%B2%E7%81%AB%E5%A2%99%E5%B7%A5%E4%BD%9C%E5%9C%A8%E7%94%A8%E6%88%B7%E7%A9%BA%E9%97%B4%E7%9A%84%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%8C%E6%98%AF%20netfilter%2Fiptables,IP%20%E4%BF%A1%E6%81%AF%E5%8C%85%E8%BF%87%E6%BB%A4%E7%B3%BB%E7%BB%9F%E6%98%AF%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%8C%E7%94%A8%E6%9D%A5%E8%AE%BE%E7%BD%AE%E3%80%81%E7%BB%B4%E6%8A%A4%E5%92%8C%E6%A3%80%E6%9F%A5%20Linux%20%E5%86%85%E6%A0%B8%E7%9A%84%20IP%20%E6%95%B0%E6%8D%AE%E5%8C%85%E8%BF%87%E6%BB%A4%E8%A7%84%E5%88%99%E3%80%82.)
 
@@ -96,7 +96,7 @@ iptables [-t table] comment [chain] CRETIRIA -j Action
                  
 - `ACCEPT:`      允许数据包通过               
 - `DROP:`        丢弃数据包                   
-- `REJECT:`      拒绝数据包通过               
+- `REJECT:`      拒绝数据包通过                 
 - `LOG:`         将数据包信息记录 syslog 曰志 
 - `DNAT:`        目标地址转换                 
 - `SNAT:`        源地址转换                   

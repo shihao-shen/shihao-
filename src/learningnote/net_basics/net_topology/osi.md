@@ -29,7 +29,7 @@ pageview: true
 
 OSI七层模型是一种用于描述网络模型的结构。它包括七个分层：物理层、数据链路层、网络层、传输层、会话层、表示层和应用层。每一层都有自己的功能和协议。下面是OSI七层模型的详细描述：
 
-![image-20221231134940593](\blog_img\osi.png)
+![image-20221231134940593](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/osi.png)
 
 
 
@@ -206,5 +206,4 @@ graph TD;
 | SNMP   | 网络管理协议                                |
 | LDAP   | 光盘服务器协议                              |
 | SSH    | 安全的远程登录协议（Secure Shell Protocol） |
-
 

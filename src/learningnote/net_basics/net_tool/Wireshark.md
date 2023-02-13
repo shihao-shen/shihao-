@@ -74,16 +74,16 @@ Wireshark 有两种过滤器：**显示过滤器** 和 **捕获过滤器**。
 
 首先创建环境变量，右键此电脑>高级系统设置>环境变量>系统变量下点击新建
 
-![创建环境变量](/blog_img/hjbl.png)
+![创建环境变量](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/tlsbj.png)
 
 新建后点击确定保存
 
 打开**Wireshark**，`ctrl+shift+p`进入首选项，点击**protocol**，并找到**TLS**，设置log filename路径，和**SSLKEYLOGFIEL**环境变量的路径一致，然后确定
 
-![](/blog_img/tlsbj.png)
+![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/hjbl.png)
 
 使用**Google**浏览网页，查看**sslkeylogfile**目录下的日志文件是否被写入数据
 
 重启**Wireshark**，健康流量，查看HTTPS是否被解密
 
-![](/blog_img/jmhttps.png)
+![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/jmhttps.png)

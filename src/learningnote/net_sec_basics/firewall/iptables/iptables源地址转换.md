@@ -27,7 +27,7 @@ pageview: true
 
 要求：出口服务器配置源地址转换
 
-![环境](/iptables/iptables源地址转换.drawio.png)
+![image-20220718230805421](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/iptables源地址转换.drawio.png)
 
 ## 配置centos7-1
 
@@ -59,7 +59,7 @@ pageview: true
 ## 测试
 
 ```sh
-ping centos7-2
+ping centos7-
 ```
 
-![image-20220718230805421](/iptables/image-20220718230805421.png)
+![环境](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20220718230805421.png)

@@ -56,7 +56,7 @@ TLS协议握手过程分为三个阶段：
 2. 服务端收到"Client Hello"消息后，回复"Server Hello"消息，包括服务端选择的加密套件、TLS协议版本以及一个随机数。
 3. 客户端和服务端通过"Certificate"和"Server Hello Done"消息进行身份验证和密钥交换。
 
-![TLS的握手过程](/blog_img/j2ubxgkzbm.png)
+![TLS的握手过程](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/j2ubxgkzbm.png)
 
 在这个过程中，双方都会使用对称加密和非对称加密来保证数据的安全性。非对称加密用于服务端向客户端发送证书，对称加密用于双方之间的通信。
 

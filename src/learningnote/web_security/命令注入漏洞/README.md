@@ -36,13 +36,13 @@ dir:
 http://127.0.0.1/ping.php?ip=8.8.8.8
 ```
 
-![image-20230209230350158](/%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E/image-20230209230350158.png)
+![image-20230209230350158](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209230350158.png)
 
 可以看到，服务器正常的ping了8.8.8.8
 
 但是如果将8.8.8.8改成8.8.8.8|dir后，返回了当前的目录信息
 
-![image-20230209230921587](/%E5%91%BD%E4%BB%A4%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E/image-20230209230921587.png)
+![image-20230209230921587](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209230921587.png)
 
 ## PHP高危函数
 

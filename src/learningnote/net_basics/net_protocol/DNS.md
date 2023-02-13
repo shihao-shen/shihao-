@@ -34,7 +34,7 @@ DNS使用UDP端口53。但是，DNS也可以使用TCP端口53来传输大量数�
 
 DNS域名空间是指所有的域名和子域名的构成的树状结构。根域是整个域名空间的顶层，它下面有若干个顶级域，顶级域下面又有二级域以此类推。每一层的域名都可以有若干个子域，这样就形成了域名空间的层次结构。
 
-![](/blog_img/dns.png)
+![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/dns2.png)
 
 [ DNS 域名层次结构](https://blog.csdn.net/qq_35197351/article/details/84349541)
 
@@ -60,7 +60,7 @@ DNS报文是用来在DNS客户端和DNS服务器之间进行通信的数据包�
 
 以下是一个DNS报文案例：
 
-![](/blog_img/dns2.png)
+![](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/dns.png)
 
 ## 📑 工作流程
 

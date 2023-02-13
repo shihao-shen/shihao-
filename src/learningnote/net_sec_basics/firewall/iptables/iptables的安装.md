@@ -25,7 +25,7 @@ pageview: true
 
 ::: tabs
 
-@tabs Centos
+@tab Centos
 
 ## 关闭firewalld
 

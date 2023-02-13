@@ -21,7 +21,7 @@ dir:
 
 CSRF (Cross-Site Request Forgery)，即跨站请求伪造，简单来说就是黑客利用你的身份对某网站的数据进行非法操作。当你登录某网站时，服务器一般都会给你一个cookie，来确认你的身份，当该网站存在CSRF的漏洞时，就可能会被别人利用，诱导你点击他们精心设计的链接，从而在你的电脑上，访问该网站的服务器，进行非法操作。
 
-![image-20230208210341480](/CSRF/image-20230208210341480.png)
+![image-20230208233351891](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208210341480.png)
 
 ## 实现案例
 
@@ -86,7 +86,7 @@ INSERT INTO `users` (`id`, `user`, `passwd`) VALUES (NULL, 'root', 'root');
 </html>
 ```
 
-![image-20230208233032389](/CSRF/image-20230208233032389.png)
+![image-20230208233032389](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208233032389.png)
 
 创建`index.php`文件
 
@@ -119,7 +119,7 @@ INSERT INTO `users` (`id`, `user`, `passwd`) VALUES (NULL, 'root', 'root');
 </html>
 ```
 
-![image-20230208233049007](/CSRF/image-20230208233049007.png)
+![image-20230208233049007](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209182648030.png)
 
 创建`change.php`文件
 
@@ -150,23 +150,25 @@ INSERT INTO `users` (`id`, `user`, `passwd`) VALUES (NULL, 'root', 'root');
     }
 ```
 
-![image-20230208233351891](/CSRF/image-20230208233351891.png)
+![image-20230208210341480](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208233351891.png)
 
 下面通过Burp Suite进行CSRF攻击
 
 第一步：登录root账号
 
-![image-20230209182648030](/CSRF/image-20230209182648030.png)
+![image-20230209182648030](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208233049007.png)
 
 第二步：修改密码，并开始抓包
 
-![image-20230209183135472](/CSRF/image-20230209183135472.png)
+![image-20230209183208462](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209183135472.png)
+
+
 
 第三步：生成POC
 
-![image-20230209183208462](/CSRF/image-20230209183208462.png)
+![image-20230209183135472](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209183208462.png)
 
-![image-20230209183245596](/CSRF/image-20230209183245596.png)
+![image-20230209183245596](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209183245596.png)
 
 ```html
 <html>
@@ -188,17 +190,21 @@ INSERT INTO `users` (`id`, `user`, `passwd`) VALUES (NULL, 'root', 'root');
 
 这里密码修改为`password`
 
-![image-20230209183942885](/CSRF/image-20230209183942885.png)
+![image-20230209183942885](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209183942885.png)
+
+![image-20230209184052477](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209184251327.png)
 
 检查数据库，发现并没有修改
 
-![image-20230209184052477](/CSRF/image-20230209184052477.png)
+![image-20230209184251327](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209184052477.png)
 
 现在将这个POC发送给受害者（Google浏览器，因为Google浏览器有cookie）
 
-![image-20230209184251327](/CSRF/image-20230209184251327.png)
+![image-20230209184348910](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209184348910.png)
 
-![image-20230209184348910](/CSRF/image-20230209184348910.png)
+
+
+
 
 ## 修复方案
 
@@ -280,4 +286,4 @@ INSERT INTO `users` (`id`, `user`, `passwd`) VALUES (NULL, 'root', 'root');
 
 CSRF成功防御
 
-![image-20230209185856101](/CSRF/image-20230209185856101.png)
+![image-20230209185856101](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209185856101.png)

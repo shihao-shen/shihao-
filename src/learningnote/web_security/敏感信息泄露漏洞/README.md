@@ -25,7 +25,7 @@ dir:
 
 使用御剑进行扫描
 
-![image-20230209210527017](/%E4%BF%A1%E6%81%AF%E6%B3%84%E9%9C%B2%E6%BC%8F%E6%B4%9E/image-20230209210527017.png)
+![image-20230209210527017](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230209210527017.png)
 
 ### 修复建议 
 

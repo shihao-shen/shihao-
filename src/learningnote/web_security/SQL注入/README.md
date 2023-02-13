@@ -96,7 +96,7 @@ mysqli_close($conn);
 http://127.0.0.1/test.php?username=root
 ```
 
-![image-20230208143210532](/SQL%E6%B3%A8%E5%85%A5/image-20230208143210532.png)
+![image-20230208143210532](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208143210532.png)
 
 如果攻击者输入如下URL：
 
@@ -104,7 +104,7 @@ http://127.0.0.1/test.php?username=root
 http://127.0.0.1/test.php?username=root' OR '1'='1
 ```
 
-![image-20230208143244901](/SQL%E6%B3%A8%E5%85%A5/image-20230208143244901.png)
+![image-20230208143244901](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208143244901.png)
 
 这将导致查询返回整个用户表。
 
@@ -140,6 +140,6 @@ mysqli_close($conn);
 ?>
 ```
 
-![image-20230208143927099](/SQL%E6%B3%A8%E5%85%A5/image-20230208143927099.png)
+![image-20230208143927099](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208143927099.png)
 
 这种方法会将变量作为占位符而不是直接嵌入SQL语句中。因此，即使攻击者输入恶意代码，也不会影响SQL语句的执行。

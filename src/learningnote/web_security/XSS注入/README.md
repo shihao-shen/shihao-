@@ -25,7 +25,7 @@ XSS（Cross-Site Scripting）指的是跨站脚本攻击，是一种网络安全
 
 为了防范XSS攻击，开发人员应该对用户输入的数据进行严格的验证和过滤，并使用安全的编程技巧来防止恶意脚本代码的执行。
 
-![image-20230208154629163](/XSS/image-20230208154629163.png)
+![image-20230208154629163](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208154629163.png)
 
 XSS可以分为持久类型和非持久类型两种类型，也可以分为存储型、反射型和DOM三种类型
 
@@ -85,7 +85,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
 下面是正常的评论
 
-![image-20230208171639527](/XSS/image-20230208171639527.png)
+![image-20230208171639527](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208171639527.png)
 
 payload：
 
@@ -93,11 +93,11 @@ payload：
 <script>alert('XSS')</script>
 ```
 
-![image-20230208172452144](/XSS/image-20230208172452144.png)
+![image-20230208172452144](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208172452144.png)
 
 查看源代码，恶意代码已经植入服务器的数据库，因此当其他用户访问这个页面时就会触发恶意代码
 
-![image-20230208172550937](/XSS/image-20230208172550937.png)
+![image-20230208172550937](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208172550937.png)
 
 ### 反射型 XSS
 
@@ -131,7 +131,7 @@ payload：
 </html>
 ```
 
-![image-20230208173611427](/XSS/image-20230208173611427.png)
+![image-20230208173611427](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208173611427.png)
 
 payload:
 
@@ -139,7 +139,7 @@ payload:
 x <script>alert('XSS')</script>
 ```
 
-![image-20230208174440096](/XSS/image-20230208174440096.png)
+![image-20230208174440096](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208174440096.png)
 
 ### DOM 型XSS
 
@@ -166,7 +166,7 @@ payload:
 x <script>alert('XSS')</script>
 ```
 
-![image-20230208181304326](/XSS/image-20230208181304326.png)
+![image-20230208181304326](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/image-20230208181304326.png)
 
 DOM型XSS攻击：DOM型XSS是指攻击者将恶意代码注入到页面中，并在客户端浏览器中运行。与反射型XSS不同，DOM型XSS不依赖服务器端。
 
