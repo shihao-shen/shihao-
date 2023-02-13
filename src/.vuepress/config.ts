@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-import { searchPlugin } from "@vuepress/plugin-search";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { getDirname, path } from "@vuepress/utils";
@@ -30,20 +30,12 @@ export default defineUserConfig({
       componentsDir: path.resolve(__dirname, "./components"),
     }),
     // 搜索插件
-    searchPlugin({
-      //多语言支持
-      locales: {
-        "/": {
-          placeholder: "搜索本站",
-        },
-      },
-      // 热键支持
-      hotKeys: ["command", "k"],
-      // 最大推荐个数
-      maxSuggestions: 7,
-      // 排除首页
-      isSearchable: (page) => page.path !== "/",
-      
+    searchProPlugin({
+      // 索引全部内容
+      indexContent: false,
+      // 为分类和标签添加索引
+      customFields: [
+      ],
     }),
     
   ],

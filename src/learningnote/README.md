@@ -21,12 +21,21 @@ index: false
 ## 任务
 
 :::tabs
+
+@tab 20023-02-14
+
+- [ ] PHP 反序列化
+- [ ] 学习Java Web
+- [ ] 漏洞复现
+
 @tab 20023-02-13
-- [X] 复习防火墙（iptable）规则 2023-02-13
-- [X] 学习Java Web
+
+- [X] 复习防火墙（iptable）
+- [x] 学习Java Web
+
 :::
 
-## 学习时间统计
+
 
 ::: chart 2023年学习统计表
 
@@ -34,20 +43,13 @@ index: false
 {
   "type": "line",
   "data": {
-    "labels": ["一月", "二月", "三月", "四月", "五月", "六月", "七月"],
+    "labels": ["一月", "二月", "三月", "四月", "五月", "六月"],
     "datasets": [
       {
         "label": "学习笔记上传数量",
-        "data": [12, 5, 0, 0, 0, 0, 0],
+        "data": [12, 5, 0, 0, 0, 0],
         "fill": false,
         "borderColor": "rgb(75, 192, 192)",
-        "tension": 0.1
-      },
-      {
-        "label": "漏洞复现笔记上传数量",
-        "data": [0, 3, 0, 0, 0, 0, 0],
-        "fill": false,
-        "borderColor": "rgb(75, 192, 1)",
         "tension": 0.1
       }
     ]

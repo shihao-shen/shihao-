@@ -5,4 +5,5 @@ export const zhNavbar = navbar([
   { text: "快速导航", icon: "navigation", link: "/quicknav/" },
   { text: "学习笔记", icon: "note", link: "/learningnote/" },
   { text: "漏洞复现", icon: "code", link: "/vuln/" },
+  { text: "我的日常", icon: "grid", link: "/essay/" },
 ]);

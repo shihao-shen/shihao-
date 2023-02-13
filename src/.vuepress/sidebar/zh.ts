@@ -32,5 +32,6 @@ export const zhSidebar = sidebar({
   // 学习笔记
   "/learningnote/": "structure",
   "/vuln/": "structure",
+  "/essay/": "structure",
   
 });

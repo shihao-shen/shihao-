@@ -17,3 +17,25 @@ dir:
 category:
     - 漏洞复现
 ---
+
+::: chart 2023年
+
+```json
+{
+  "type": "line",
+  "data": {
+    "labels": ["一月","二月", "三月", "四月", "五月", "六月"],
+    "datasets": [
+      {
+        "label": "笔记上传数量",
+        "data": [3, 0, 0, 0, 0, 0],
+        "fill": false,
+        "borderColor": "rgb(75, 192, 1)",
+        "tension": 0.1
+      }
+    ]
+  }
+}
+```
+
+:::
