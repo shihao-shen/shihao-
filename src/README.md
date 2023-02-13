@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: /site_logo_bak.png
 heroText: shihao.icu
 heroFullScreen: true
-tagline: 每天一点新知识
+tagline: 学会一项技术，并不难，难的是如何运用
 # projects:
 #   - icon: project
 #     name: 项目名称
