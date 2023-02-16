@@ -21,7 +21,7 @@ timeline: true
 order: 4
 date: 2022-12-30
 # 浏览量
-pageview: trues
+pageview: true
 ---
 
 # 📖 什么是dhcp协议

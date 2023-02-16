@@ -12,6 +12,8 @@ article: false
 # 是否将该文章添加至时间线中
 timeline: false
 index: false
+dir:
+    order: 2
 ---
 网络安全基础可以分为以下几个部分：
 

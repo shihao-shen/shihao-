@@ -14,25 +14,24 @@ timeline: false
 index: false
 ---
 
-
-
 ::: chart 2023年学习统计表
 
 ```json
 {
   "type": "line",
   "data": {
-    "labels": ["一月", "二月", "三月", "四月", "五月", "六月",],
+    "labels": ["一月", "二月", "三月", "四月", "五月", "六月"],
     "datasets": [
       {
-        "label": "日常笔记上传数量",
-        "data": [0, 0, 0, 0, 0, 0],
+        "label": "笔记上传数量",
+        "data": [0, 1, 0, 0, 0, 0],
         "fill": false,
-        "borderColor": "rgb(75, 112, 192)",
+        "borderColor": "rgb(75, 192, 192)",
         "tension": 0.1
       }
     ]
   }
 }
 ```
+
 :::
