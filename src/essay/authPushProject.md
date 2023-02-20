@@ -27,7 +27,9 @@ pageview: true
 
 虽然需求简单，但是需要日志，进度条，备份，ssh连接，sftp文件上传这些功能。
 
-## ![Snipaste_2023-02-16_12-52-17](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/Snipaste_2023-02-16_12-52-17.png)
+![Snipaste_2023-02-16_12-52-17](https://shihao-icu-1304033786.cos.ap-shanghai.myqcloud.com/shihao.icu/Snipaste_2023-02-16_12-52-17.png)
+
+源码地址：https://github.com/shihao-shen/autoPushProject
 
 ## 目录简介
 

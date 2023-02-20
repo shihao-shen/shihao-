@@ -14,7 +14,18 @@ timeline: false
 index: false
 ---
 
-::: chart 2023年学习统计表
+日志
+
+::: tabs
+@tab 2023-02-20
+- [x] 上传INFQ项目
+@tab 2023-02-16
+- [x] 把一些老本（以前写的笔记）上传了
+- [x] 将authPushProject上传到GitHub
+:::
+
+
+::: chart 2023年更新统计
 
 ```json
 {
@@ -23,8 +34,8 @@ index: false
     "labels": ["一月", "二月", "三月", "四月", "五月", "六月"],
     "datasets": [
       {
-        "label": "笔记上传数量",
-        "data": [0, 1, 0, 0, 0, 0],
+        "label": "笔记更新数量",
+        "data": [0, 6, 0, 0, 0, 0],
         "fill": false,
         "borderColor": "rgb(75, 192, 192)",
         "tension": 0.1

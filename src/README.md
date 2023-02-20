@@ -6,7 +6,7 @@ title: 博客主页
 heroImage: /site_logo_bak.png
 heroText: shihao.icu
 heroFullScreen: true
-tagline: 学会一项技术，并不难，难的是如何运用
+tagline: 说一句中二的话：我始终认为，我不止如此
 # projects:
 #   - icon: project
 #     name: 项目名称
@@ -40,4 +40,3 @@ tagline: 学会一项技术，并不难，难的是如何运用
 
 # footer: 自定义你的页脚文字
 ---
-## 任务
