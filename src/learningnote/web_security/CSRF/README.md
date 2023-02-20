@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: CSRF
+title: 跨站请求伪造（CSRF）
 # 当前页面图标
 icon: "hot"
 # 分类
