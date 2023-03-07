@@ -1,6 +1,6 @@
 ---
 # 当前页面内容标题
-title: Spring 基础
+title: Spring boot基础
 # 当前页面图标
 icon: "java"
 # 分类

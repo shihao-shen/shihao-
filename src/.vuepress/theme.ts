@@ -69,6 +69,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
+      "/learning_book/*.pdf": ["985654789"],
       // "/demo/encrypt.html": ["1234"],
       // "/zh/demo/encrypt.html": ["1234"],
     },
